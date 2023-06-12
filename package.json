@@ -15,7 +15,7 @@
     "email": "layouwen@gmail.com",
     "url": "https://github.com/layouwen"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/body-parser": "^1.19.2",
     "@types/express": "^4.17.17",

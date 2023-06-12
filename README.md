@@ -31,4 +31,3 @@ $ pnpm run test
 ## License
 
 [MIT licensed](LICENSE).
-```
