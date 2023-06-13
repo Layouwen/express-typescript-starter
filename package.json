@@ -9,9 +9,9 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "release": "standard-version",
-    "prerelease": "npm run release --prerelease",
-    "alpha": "npm run release --prerelease alpha",
-    "minor": "npm run release --release-as minor"
+    "prerelease": "standard-version --prerelease",
+    "alpha": "standard-version --prerelease alpha",
+    "minor": "standard-version --release-as minor"
   },
   "keywords": [],
   "author": {
