@@ -7,9 +7,9 @@ import bodyParser from 'body-parser';
 
 !(async () => {
   const app = express();
-
-  app.use(loggerMiddleware(logger));
+  
   app.use(bodyParser.json());
+  app.use(loggerMiddleware(logger));
 
   initRoute(app);
 
