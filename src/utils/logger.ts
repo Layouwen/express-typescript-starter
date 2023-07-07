@@ -10,6 +10,5 @@ type LoggerInterface = {
 };
 
 const logPath = path.join(process.cwd(), 'logs');
-const logger: LoggerInterface = new Logger(logPath);
+export const logger: LoggerInterface = new Logger(logPath);
 
-export { logger };
