@@ -28,6 +28,18 @@ $ pnpm start
 $ pnpm run test
 ```
 
+## Function
+
+- [x] pkg
+- [x] docker
+- [x] prettier
+- [x] commit-lint
+- [ ] husky
+- [ ] lint-staged
+- [ ] MQTT
+- [ ] MongoDB
+- [ ] socket
+
 ## License
 
 [MIT licensed](LICENSE).

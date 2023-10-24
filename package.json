@@ -2,11 +2,17 @@
   "name": "express-typescript-starter",
   "version": "0.0.2-alpha.0",
   "description": "",
+  "bin": "dist/main.js",
   "main": "index.js",
   "private": true,
   "scripts": {
     "dev": "ts-node-dev src/main.ts",
     "build": "tsc",
+    "build:pkg": "pkg .",
+    "build:docker": "node scripts/build-docker.js",
+    "build:all": "npm run build && npm run build:pkg && npm run build:docker",
+    "build:save:image": "node scripts/save-docker-image.js",
+    "build:all:save:image": "npm run build:all && npm run build:save:image",
     "start": "node dist/main.js",
     "release": "standard-version",
     "prerelease": "standard-version --prerelease",
@@ -51,5 +57,13 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": [],
+    "targets": [
+      "node16-alpine-x64"
+    ],
+    "outputPath": "deploy"
   }
 }
