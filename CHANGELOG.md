@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2-alpha.1](https://github.com/Layouwen/express-typescript-starter/compare/v0.0.2-alpha.0...v0.0.2-alpha.1) (2023-10-24)
+
+
+### Features
+
+* add cors ([32a4f21](https://github.com/Layouwen/express-typescript-starter/commit/32a4f2137b5e2f545fecf195eaebc1637f4ba490))
+* add pkg docker build ([0d33433](https://github.com/Layouwen/express-typescript-starter/commit/0d3343365967bf89bdb7f03b81087169a4dd8f0a))
+
+
+### Bug Fixes
+
+* logger body undefined ([2658537](https://github.com/Layouwen/express-typescript-starter/commit/26585379e2b0dd1bf7d3472ffb9bb5bf5110000f))
+
 ### 0.0.2-alpha.0 (2023-06-13)
 
 
