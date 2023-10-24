@@ -19,6 +19,11 @@
     "email": "layouwen@gmail.com",
     "url": "https://github.com/layouwen"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Layouwen/express-typescript-starter"
+  },
+  "homepage": "https://github.com/Layouwen/express-typescript-starter#readme",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
