@@ -51,6 +51,7 @@
     "avan-logger": "^0.0.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "axios": "0.27.2",
     "express": "^4.18.2"
   },
   "config": {
