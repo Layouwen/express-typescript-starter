@@ -13,7 +13,7 @@ import './init';
 
   app.use(cors());
   app.use(bodyParser.json());
-  app.use(loggerMiddleware(logger));
+  app.use(loggerMiddleware);
 
   initRoute(app);
 
