@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/Layouwen/express-typescript-starter/compare/v0.0.4...v0.0.5) (2024-04-23)
+
+
+### Features
+
+* add MQTT ([4d0dbd4](https://github.com/Layouwen/express-typescript-starter/commit/4d0dbd4205735c3a14440d805679d8be7a0b5226))
+
 ### [0.0.4](https://github.com/Layouwen/express-typescript-starter/compare/v0.0.3...v0.0.4) (2024-04-23)
 
 
