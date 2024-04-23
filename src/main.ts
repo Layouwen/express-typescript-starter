@@ -2,7 +2,7 @@ import express from 'express';
 import config from './config';
 import { logger } from './utils';
 import { initRoute } from './routes';
-import { loggerMiddleware } from './middleware';
+import { errorHandleMiddleware, loggerMiddleware } from './middleware';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import pkg from '../package.json';
@@ -16,6 +16,8 @@ import './init';
   app.use(loggerMiddleware);
 
   initRoute(app);
+
+  app.use(errorHandleMiddleware);
 
   app.listen(config.port, () => {
     logger.daily.info(`========================================`);
