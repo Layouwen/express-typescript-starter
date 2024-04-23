@@ -6,7 +6,15 @@ class VideoService {
   }
 
   postStream() {
-    throw new ErrorResponse({ message: 'post stream error' });
+    return this.postSteamThrowError();
+  }
+
+  postSteamThrowError() {
+    if (Math.random() > 0.5) {
+      throw new ErrorResponse({ message: 'post stream error' });
+    }
+
+    return 'post stream';
   }
 }
 
