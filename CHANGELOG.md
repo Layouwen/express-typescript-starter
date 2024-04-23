@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/Layouwen/express-typescript-starter/compare/v0.0.2...v0.0.3) (2024-04-23)
+
+
+### Features
+
+* add errHandle ([c647c79](https://github.com/Layouwen/express-typescript-starter/commit/c647c79f3f82384d9a66fa6c2b186ae07d4810cc))
+
 ### [0.0.2](https://github.com/Layouwen/express-typescript-starter/compare/v0.0.2-alpha.1...v0.0.2) (2024-02-22)
 
 
