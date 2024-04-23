@@ -1,12 +1,13 @@
 import express from 'express';
 import config from './config';
-import { logger } from './utils';
+import { logger, mqttTopicInfoList } from './utils';
 import { initRoute } from './routes';
 import { errorHandleMiddleware, loggerMiddleware } from './middleware';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import pkg from '../package.json';
 import './init';
+import { MqttClient } from './lib';
 
 !(async () => {
   const app = express();
@@ -18,6 +19,12 @@ import './init';
   initRoute(app);
 
   app.use(errorHandleMiddleware);
+
+  const mqttClient = new MqttClient({
+    brokerUrl: config.mqtt.url,
+    opts: config.mqtt.opts,
+  });
+  mqttClient.connect().then(client => client.onSubscribes(mqttTopicInfoList));
 
   app.listen(config.port, () => {
     logger.daily.info(`========================================`);

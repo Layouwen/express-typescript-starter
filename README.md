@@ -34,9 +34,10 @@ $ pnpm run test
 - [x] docker
 - [x] prettier
 - [x] commit-lint
+- [x] winston
+- [x] MQTT
 - [ ] husky
 - [ ] lint-staged
-- [ ] MQTT
 - [ ] MongoDB
 - [ ] socket
 
