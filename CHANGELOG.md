@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/Layouwen/express-typescript-starter/compare/v0.0.3...v0.0.4) (2024-04-23)
+
+
+### Features
+
+* add async wrapper middleware ([48cdd69](https://github.com/Layouwen/express-typescript-starter/commit/48cdd6996ddfcff1a9e1b9974fb50362d914fe82))
+
 ### [0.0.3](https://github.com/Layouwen/express-typescript-starter/compare/v0.0.2...v0.0.3) (2024-04-23)
 
 
