@@ -28,6 +28,28 @@ $ pnpm start
 $ pnpm run test
 ```
 
+## Pkg Target
+
+### Linux alpine
+
+```bash
+node16-alpine-x64
+```
+
+### MacOS
+
+arm64
+
+```bash
+node16-darwin-arm64
+```
+
+x64
+
+```bash
+node16-darwin-x64
+```
+
 ## Function
 
 - [x] pkg
