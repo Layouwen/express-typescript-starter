@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@avanlan/logger':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       axios:
         specifier: 0.27.2
         version: 0.27.2
@@ -69,8 +69,8 @@ importers:
 
 packages:
 
-  '@avanlan/logger@0.0.1':
-    resolution: {integrity: sha512-cvr05sx6GBvMIGX3yjK7a8mqn0eNBqn1L4Jb7YM+5GkpdyVAvz6zGTQabBMmyXyuCwdVeH3uVkXUqAwIOKKtTw==}
+  '@avanlan/logger@0.0.2':
+    resolution: {integrity: sha512-PuiCBgsj4h9Wrqw2r4Ere5pxMlBTkfv1YPl32dBwSCAk+H/ObBbBZpsKmGuxSoHFj5L4FvN1+hR4Ad602qwK2g==}
 
   '@babel/code-frame@7.22.5':
     resolution: {integrity: sha512-Xmwn266vad+6DAqEB2A6V/CcZVp62BbwVmcOJc2RPuwih1kw02TjQvWVWlcKGbBPd+8/0V5DEkOcizRGYsspYQ==}
@@ -1914,7 +1914,7 @@ packages:
 
 snapshots:
 
-  '@avanlan/logger@0.0.1':
+  '@avanlan/logger@0.0.2':
     dependencies:
       triple-beam: 1.4.1
       winston: 3.14.0
