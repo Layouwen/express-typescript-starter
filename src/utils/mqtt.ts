@@ -1,4 +1,4 @@
-import { MqttTopicInfo } from '../lib';
+import type { MqttTopicInfo } from '../lib';
 
 export const mqttTopicInfoList = [
   {
